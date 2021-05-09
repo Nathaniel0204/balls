@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="../index.html">Go Back</a>
+    <br>
+    <br>
+    <div id="lesson"><b>Lesson 4 </b>|| simulated ball objects </div>
+
+    <ol>
+        <b>Getting Started</b>
+
+        <li>make a new repl html, css, js project</li>
+        <li>copy the <a href="https://github.com/jacoby149/lessons/tree/main/lesson4">lesson 4</a>
+            index.html, script.js, and style.css code into the repl
+        </li>
+        <li>hit the spacebar. what happens?</li>
+        <li>hit ctrl-f and search for "var balls" and read the comments about it</li>
+        <li>ctrl-f search "function initBall()" and read the comments</li>
+        <li>inside the initBall function, change black to red, what happens?</li>
+        <li>now change it to inputColor with no "" marks what happens?</li>
+
+    </ol>
+    <ol>
+        <b>Instantiating Custom Ball Objects</b>
+        <li>ctrl-f for "function control"</li>
+        <li>inside the control function, change pink to orange. what happens?</li>
+        <li>go back to the initBall function definition, and add inputRadius as an input</li>
+        <li>in the initBall function definition, change "radius : 10" to "radius : inputRadius"</li>
+        <li>hit the spacebar, if balls arent popping up anymore, it means something is broken (fix it!)</li>
+        <li>make the spacebar initialize a blue ball of radius 15</li>
+        <li>make the w key initialize a red ball of radius 7</li>
+        <li>make the e key initialize a yellow ball of radius 12</li>
+        <li>bonus : make the r key destroy balls (hint - there is a helpful function in the code)</li>
+    </ol>
+    <ol><b>Wrapping up</b>
+        <li>publish the lesson as a website on github pages (see lesson 2 instructions)</li>
+    </ol>
+
+    <canvas id="myCanvas" width="500" height="300"></canvas>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
